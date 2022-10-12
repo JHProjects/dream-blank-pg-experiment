@@ -3,4 +3,7 @@ let timingFunction = setInterval( (e) => {
 	let randomNumber2 = Math.floor(Math.random() * 255)
 	let randomNumber3 = Math.floor(Math.random() * 255)
 	document.body.style.background = "rgb(" + randomNumber1 + ", " + randomNumber2 + ", " + randomNumber3 + ")"
-}, 500)
+}, 500);
+
+timingFunction()
+
