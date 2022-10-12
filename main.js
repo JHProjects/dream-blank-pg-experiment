@@ -1,4 +1,4 @@
-let TimingFunction = setInterval( (e) => {
+let timingFunction = setInterval( (e) => {
 	let randomNumber1 = Math.floor(Math.random() * 255)
 	let randomNumber2 = Math.floor(Math.random() * 255)
 	let randomNumber3 = Math.floor(Math.random() * 255)
